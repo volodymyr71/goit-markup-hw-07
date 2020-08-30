@@ -581,18 +581,17 @@ button.close:focus .close-icon {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon {
-  fill: #afb1b8;
-}
-
-.social-icons-link:hover,
-.social-icons-link:focus {
+.social-icons-link:hover, .social-icons-link:focus {
   background-color: #2196f3;
 }
 
 .social-icons-link:hover .social-icon,
 .social-icons-link:focus .social-icon {
   fill: #ffffff;
+}
+
+.social-icon {
+  fill: #afb1b8;
 }
 
 .social-list {
@@ -643,17 +642,16 @@ button.close:focus .close-icon {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-footer {
-  fill: #ffffff;
-}
-
-.social-icons-link-footer:hover,
-.social-icons-link-footer:focus {
+.social-icons-link-footer:hover, .social-icons-link-footer:focus {
   background-color: #2196f3;
 }
 
 .social-icons-link-footer:hover .social-icon,
 .social-icons-link-footer:focus .social-icon {
+  fill: #ffffff;
+}
+
+.social-icon-footer {
   fill: #ffffff;
 }
 
@@ -843,19 +841,19 @@ button.close:focus .close-icon {
   appearance: none;
 }
 
-.policy {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-}
-
 .checkbox-policy:checked + .check-icon {
   border-color: #2196f3;
   background-color: #2196f3;
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
+}
+
+.policy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
 }
 
 .hero {
@@ -903,8 +901,7 @@ button.close:focus .close-icon {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: #2196f3;
 }
 
@@ -1074,10 +1071,8 @@ button.close:focus .close-icon {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-icon {
-  fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.clients-link:hover, .clients-link:focus {
+  border: 1px solid #2196f3;
 }
 
 .clients-link:hover .clients-icon,
@@ -1085,9 +1080,10 @@ button.close:focus .close-icon {
   fill: #2196f3;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid #2196f3;
+.clients-icon {
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .b-footer {
@@ -1205,8 +1201,7 @@ button.close:focus .close-icon {
   text-decoration: none;
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-link:hover, .portfolio-link:focus {
   color: #2196f3;
 }
 
@@ -1243,8 +1238,7 @@ button.close:focus .close-icon {
   margin-bottom: 0;
 }
 
-.portfolio-item-work:hover,
-.portfolio-item-work:focus {
+.portfolio-item-work:hover, .portfolio-item-work:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

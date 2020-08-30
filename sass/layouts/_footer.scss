@@ -33,12 +33,12 @@
   border-radius: 4px;
   background-color: inherit;
   transition: border-color $transition-duration cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-subscribe-input:focus {
-  outline: none;
-  color: $white-color;
-  border-color: $white-color;
+  &:focus {
+    outline: none;
+    color: $white-color;
+    border-color: $white-color;
+  }
 }
 
 .address-list {
